@@ -1,0 +1,324 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12254000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "stepDefinition.Steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T04:58:39.379Z",
+        "line": 31,
+        "name": "Test login with different data",
+        "description": "",
+        "id": "login-feature;test-login-with-different-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 284000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.Steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.Steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5493000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on submit button",
+            "match": {
+              "location": "stepDefinition.Steps.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome Paul[]\u003e but was:\u003cWelcome Paul[ette]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinition.Steps.login_should_be_successfull_and_see_username_as(Steps.java:55)\r\n\tat ✽.Login should be successfull and see username as \"Welcome Paulette\"(file:///C:/Users/UshaBC/Documents/BDD-cucumber/src/test/resources/Login/Login.feature:27)\r\n",
+              "duration": 134000000,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "Login should be successfull and see username as \"Welcome Paulette\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Paulette\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinition.Steps.login_should_be_successfull_and_see_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9023000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "stepDefinition.Steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T04:58:58.093Z",
+        "line": 32,
+        "name": "Test login with different data",
+        "description": "",
+        "id": "login-feature;test-login-with-different-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 188000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.Steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.Steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5490000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on submit button",
+            "match": {
+              "location": "stepDefinition.Steps.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome Paul[]\u003e but was:\u003cWelcome Paul[ette]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinition.Steps.login_should_be_successfull_and_see_username_as(Steps.java:55)\r\n\tat ✽.Login should be successfull and see username as \"Welcome Paulette\"(file:///C:/Users/UshaBC/Documents/BDD-cucumber/src/test/resources/Login/Login.feature:27)\r\n",
+              "duration": 150000000,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "Login should be successfull and see username as \"Welcome Paulette\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Paulette\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinition.Steps.login_should_be_successfull_and_see_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9705000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to navigate onto the login page",
+            "match": {
+              "location": "stepDefinition.Steps.i_am_able_to_navigate_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T04:59:13.110Z",
+        "line": 35,
+        "name": "Login with Negative data",
+        "description": "",
+        "id": "login-feature;login-with-negative-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 700000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter the username as \"usha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"usha\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.Steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter the password as \"usha123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"usha123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.Steps.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1766000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click on submit button",
+            "match": {
+              "location": "stepDefinition.Steps.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Login should fail and should see error message as \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid credentials\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinition.Steps.login_should_fail_and_should_see_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "This feature includes scenario that would validate the following feature\n1)Login as Admin\n2) Login as linda.anderson\n3)Login with Negative data",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/Login.feature",
+    "tags": []
+  }
+]

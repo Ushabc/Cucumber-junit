@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="46.884">
+<testcase classname="Login feature" name="Test login with different data" time="18.668">
+<failure message="expected:&lt;Welcome Paul[]&gt; but was:&lt;Welcome Paul[ette]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am able to navigate onto the login page.............................passed
+When I enter the username as "Admin"........................................passed
+And I enter the password as "admin123"......................................passed
+And click on submit button..................................................passed
+Then Login should be successfull and see username as "Welcome Paulette".....failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Welcome Paul[]> but was:<Welcome Paul[ette]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinition.Steps.login_should_be_successfull_and_see_username_as(Steps.java:55)
+	at ✽.Login should be successfull and see username as "Welcome Paulette"(file:///C:/Users/UshaBC/Documents/BDD-cucumber/src/test/resources/Login/Login.feature:27)
+]]></failure>
+</testcase>
+<testcase classname="Login feature" name="Test login with different data 2" time="15.006">
+<failure message="expected:&lt;Welcome Paul[]&gt; but was:&lt;Welcome Paul[ette]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am able to navigate onto the login page.............................passed
+When I enter the username as "Admin"........................................passed
+And I enter the password as "admin123"......................................passed
+And click on submit button..................................................passed
+Then Login should be successfull and see username as "Welcome Paulette".....failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Welcome Paul[]> but was:<Welcome Paul[ette]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinition.Steps.login_should_be_successfull_and_see_username_as(Steps.java:55)
+	at ✽.Login should be successfull and see username as "Welcome Paulette"(file:///C:/Users/UshaBC/Documents/BDD-cucumber/src/test/resources/Login/Login.feature:27)
+]]></failure>
+</testcase>
+<testcase classname="Login feature" name="Login with Negative data" time="12.45">
+<system-out><![CDATA[Given I am able to navigate onto the login page.............................passed
+When I enter the username as "usha".........................................passed
+And I enter the password as "usha123".......................................passed
+And click on submit button..................................................passed
+Then Login should fail and should see error message as "Invalid credentials".passed
+]]></system-out>
+</testcase>
+</testsuite>
